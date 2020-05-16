@@ -1,0 +1,36 @@
+$header-height: 64px;
+$background-color: white;
+$text-color: #586C6E;
+$green: #045B4B;
+
+section.Header{
+    height: $header-height;
+    background-color: $background-color;
+    font-family: Segoe UI;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        height: 0.70 * $header-height;
+        margin-top: 9px;
+        padding-left: 30px;
+    }
+    nav ul{
+        list-style: none;
+        padding: 0;
+        padding-top: 12px;
+        cursor: default;
+        
+        li{
+            display: inline-block;
+            padding: 0px 20px;
+            a{
+                color: $text-color;
+                cursor: pointer;
+            }
+        }
+        li:first-child a{
+            border-bottom: solid 3px $green;
+       }
+    }
+}   

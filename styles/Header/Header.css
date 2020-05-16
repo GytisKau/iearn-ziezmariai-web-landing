@@ -37,7 +37,3 @@ section.Header nav ul li a {
 section.Header nav ul li:first-child a {
   border-bottom: solid 3px #045B4B;
 }
-
-body {
-  background-color: #d6d6d6;
-}
